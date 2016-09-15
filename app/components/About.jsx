@@ -3,8 +3,8 @@ var React = require('react');
 var About = () => {
   return (
     <div>
-      <h3>About</h3>
-      <p>Some about text.</p>
+      <h1 className="text-center">About</h1>
+      <p className="text-center">Some about text.</p>
     </div>
   );
 };
